@@ -56,81 +56,7 @@ pre {
   white-space: pre-wrap;
 }
 
-.toc ol {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.toc ol ol {
-  padding-left: 1em;
-}
-
-.toc a {
-  display: block;
-  padding: 0.5em 0;
-  text-decoration: none;
-}
-
 ul, ol {
-}
-
-a.callout {
-  display: inline-block;
-  background: #333;
-  color: white;
-  border-radius: 50%;
-  font-size: 0.75em;
-  line-height: 1.5em;
-  width: 1.5em;
-  text-decoration: none;
-  text-align: center;
-}
-
-ul.colist {
-  list-style: none;
-  padding: 0;
-  margin: 1em 0;
-}
-
-figure {
-  margin: 1em 0;
-}
-
-figure.image {
-  text-align: center;
-}
-
-figcaption {
-  font-style: italic;
-}
-
-.example {
-  margin: 1em 0;
-  padding: 1em;
-  background: #eee;
-}
-
-.example > *:first-child {
-  margin-top: 0;
-}
-
-.example > *:last-child {
-  margin-bottom: 0;
-}
-
-.sidebar {
-  margin: 1em 0;
-  padding: 1em;
-  background: #eee;
-}
-
-.sidebar > *:first-child {
-  margin-top: 0;
-}
-
-.sidebar > *:last-child {
-  margin-bottom: 0;
 }
 
 table {
@@ -219,6 +145,11 @@ footer {
   line-height: 1;
   border: none;
   padding: 0;
+  color: #999;
+}
+
+.button:hover {
+  color: #555;
 }
 
 .button-icon {
@@ -282,7 +213,7 @@ footer {
   padding-left: 24px;
 }
 
-.content {
+.main-content {
   padding: 2em;
   max-width: 768px;
   margin: 0 auto;

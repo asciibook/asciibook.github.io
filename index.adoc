@@ -5,7 +5,8 @@
 
 Asciibook is an Ebook generator for converting AsciiDoc to HTML, PDF, EPUB and MOBI.
 
-[source, console]
-----
-$ asciibook build MyBook.adoc
-----
+Compared with alternatives, Asciibook is based on HTML/CSS/JavaScript, uses the same content structure in different e-book formats, and provides a customizable style system.
+
+It is based on the command line and works well with CI/CD systems:
+
+link:https://asciibook.org/docs[Getting Started]
