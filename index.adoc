@@ -1,0 +1,11 @@
+:page-layout: default
+:source-highlighter: rouge
+
+== Asciibook
+
+Asciibook is an Ebook generator for converting AsciiDoc to HTML, PDF, EPUB and MOBI.
+
+[source, console]
+----
+$ asciibook build MyBook.adoc
+----

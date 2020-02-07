@@ -65,6 +65,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.0.0)
   jekyll-asciidoc (~> 3.0.0)
+  rouge (~> 3.0)
 
 BUNDLED WITH
    2.1.2
