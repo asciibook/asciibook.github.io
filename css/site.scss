@@ -145,11 +145,6 @@ footer {
   line-height: 1;
   border: none;
   padding: 0;
-  color: #999;
-}
-
-.button:hover {
-  color: #555;
 }
 
 .button-icon {
@@ -162,6 +157,15 @@ footer {
 
 .button-icon:hover svg {
   fill: #555;
+}
+
+.button-text {
+  color: #999;
+  padding: .75em;
+}
+
+.button-text:hover {
+  color: #555;
 }
 
 .dropdown {
