@@ -18,11 +18,13 @@ jobs:
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
-          key: bundle
-      - name: Jekyll Build
+          key: ${{ runner.os }}-gems
+      - name: Bundle install
         run: |
           bundle config set path 'vendor/bundle'
           bundle install
+      - name: Jekyll Build
+        run: |
           bundle exec jekyll build
       - name: Publish to Github Pages
         run: |
